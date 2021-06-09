@@ -43,3 +43,4 @@ def requires_auth(f):
       return authenticate()
     return f(*args, **kwargs)
   return decorated
+ 
