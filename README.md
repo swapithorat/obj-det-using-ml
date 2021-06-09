@@ -65,7 +65,7 @@ All remaining operations should be done from the root user.
 
 ```
 # cd $HOME
-# git clone https://github.com/GoogleCloudPlatform/tensorflow-object-detection-example
+# git clone https://github.com/swapithorat/obj-det-using-ml/
 # cp -a tensorflow-object-detection-example/object_detection_app_p3 /opt/
 # chmod u+x /opt/object_detection_app_p3/app.py
 # cp /opt/object_detection_app_p3/object-detection.service /etc/systemd/system/
